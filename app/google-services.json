@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1047304043047",
+    "firebase_url": "https://fitnessgame-cf1ba.firebaseio.com",
+    "project_id": "fitnessgame-cf1ba",
+    "storage_bucket": "fitnessgame-cf1ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1047304043047:android:39153ec6ade76f4058ac02",
+        "android_client_info": {
+          "package_name": "com.example.fitnessgameapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1047304043047-har5vh5n200b3cnvet5gbfkrs1h6pdb3.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.fitnessgameapp",
+            "certificate_hash": "4f4e49615b58fd14e80eac15176a5519b09a31f2"
+          }
+        },
+        {
+          "client_id": "1047304043047-gms5gh0ihp82ucjnkqsu3tdjb1761ib8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANxIjTKw3Wjy16VyEHyKymmR4b1B0uvVI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1047304043047-gms5gh0ihp82ucjnkqsu3tdjb1761ib8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

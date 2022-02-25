@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/background"
+    >
+
+    <TextView
+        android:id="@+id/Person_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="15dp"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="right"
+        android:text="Piotr Chyrc"
+        android:textColor="@android:color/white"
+        android:textSize="24dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        style="?android:progressBarStyleHorizontal"
+        android:progress="0"
+        android:rotation="-180"
+        android:layout_width="match_parent"
+        android:layout_height="177dp"
+        android:progressDrawable="@drawable/circle"
+        />
+
+    <TextView
+        android:id="@+id/Step_Count"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center"
+        android:text="0"
+        android:textColor="@android:color/white"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/Current_Level"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center"
+        android:text="Level : 1"
+        android:textColor="@android:color/white"
+        android:textSize="38dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/XPCounter"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="@font/raleway_medium"
+        android:gravity="center"
+
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="fill_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="60dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/lvlMemory"
+            android:layout_width="139dp"
+            android:layout_height="60dp"
+            android:layout_margin="25dp"
+            android:layout_weight="0"
+            android:background="@drawable/button"
+            android:elevation="10dp"
+            android:fontFamily="@font/raleway_medium"
+            android:text="Level Memory" />
+
+        <Button
+            android:id="@+id/leaderboard"
+            android:layout_width="139dp"
+            android:layout_height="60dp"
+            android:elevation="10dp"
+            android:layout_margin="25dp"
+            android:layout_weight="0"
+            android:background="@drawable/button"
+            android:fontFamily="@font/raleway_medium"
+            android:paddingTop="0dp"
+            android:text="Leaderboard" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout4"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/stepsToXp"
+            android:layout_width="139dp"
+            android:layout_height="60dp"
+            android:layout_margin="25dp"
+            android:layout_weight="0"
+            android:background="@drawable/button"
+            android:elevation="10dp"
+            android:fontFamily="@font/raleway_medium"
+            android:text="Steps to XP" />
+
+        <Button
+            android:id="@+id/Exit_button"
+            android:layout_width="139dp"
+            android:layout_height="60dp"
+            android:elevation="10dp"
+            android:layout_margin="25dp"
+            android:layout_weight="0"
+            android:background="@drawable/button"
+            android:fontFamily="@font/raleway_medium"
+            android:paddingTop="0dp"
+            android:text="Exit" />
+
+
+    </LinearLayout>
+
+</LinearLayout>
